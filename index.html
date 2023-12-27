@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .hotel-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .hotel-info img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hotel Management System</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Rooms</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+        <a href="#">Registration</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to our Hotel</h2>
+
+        <div class="hotel-info">
+            <div>
+                <img src="./images/room.jpeg" alt="Hotel Room">
+                <p>Comfortable and spacious rooms</p>
+            </div>
+
+            <div>
+                <img src="./images/dining.jpeg" alt="Hotel Restaurant">
+                <p>Delicious dining experience</p>
+            </div>
+
+            <div>
+                <img src="./images/pool.jpeg" alt="Swimming Pool">
+                <p>Relax by the poolside</p>
+            </div>
+        </div>
+    </section>
+    <center>
+        <button onclick="window.location.href='#'">Book Now</button>
+
+    </center>
+    <footer>
+        <p>&copy; 2023 Hotel Management System. All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>
